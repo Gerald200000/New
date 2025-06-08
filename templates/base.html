@@ -12,7 +12,12 @@ rel="stylesheet">
 <body>
     <header>
         <h1>
+            <div>
             <a href = "{% url 'home' %}"> Django Blog </a>
+            </div>
+            <div class="nav-right">
+                <a href="{% url 'post_new' %}">+ New Blog Post</a>
+            </div>
         </h1>
     </header>
     <div>

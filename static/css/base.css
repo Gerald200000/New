@@ -17,6 +17,7 @@ margin-right: auto;
 .nav-right {
 display: flex;
 padding-top: 2rem;
+font-size: 5px;
 }
 .post-entry {
 margin-bottom: 2rem;
