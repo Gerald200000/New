@@ -21,6 +21,13 @@ rel="stylesheet">
             
         </h1>
     </header>
+    {% if user.is_authenticated %}
+    <p>Hi {{ user.username }}!</p>
+    <form action="{% url 'logout' %}" method="post">
+    {% csrf_token %}
+    <button type="submit">Log Out</button>
+    </form>
+    {% endif %}
     <div>
         {% block content %}
 
