@@ -17,7 +17,16 @@ margin-right: auto;
 .nav-right {
 display: flex;
 padding-top: 2rem;
-font-size: 5px;
+font-size: 13px;
+}
+.nav-right a {
+margin-right: 1rem;
+}
+.nav-right a:hover {
+color: blue;
+}
+.nav-right a:visited {
+color: red;
 }
 .post-entry {
 margin-bottom: 2rem;
